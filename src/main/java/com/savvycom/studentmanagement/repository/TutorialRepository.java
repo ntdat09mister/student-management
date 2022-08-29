@@ -1,7 +1,7 @@
 package com.savvycom.studentmanagement.repository;
 
-import com.savvycom.studentmanagement.repository.domain.Tutorial;
-import com.savvycom.studentmanagement.repository.dto.TutorialDTO;
+import com.savvycom.studentmanagement.domain.entity.Tutorial;
+import com.savvycom.studentmanagement.domain.dto.TutorialDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

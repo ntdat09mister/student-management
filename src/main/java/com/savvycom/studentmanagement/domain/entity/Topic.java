@@ -1,4 +1,4 @@
-package com.savvycom.studentmanagement.repository.domain;
+package com.savvycom.studentmanagement.domain.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,15 +8,15 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "team")
+@Table(name = "topic")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Team extends BaseEntity {
+public class Topic extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String code;
     private String name;
+    private Double cost;
 }

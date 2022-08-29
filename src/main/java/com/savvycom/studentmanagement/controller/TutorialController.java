@@ -1,6 +1,6 @@
 package com.savvycom.studentmanagement.controller;
 
-import com.savvycom.studentmanagement.repository.dto.TutorialDTO;
+import com.savvycom.studentmanagement.domain.dto.TutorialDTO;
 import com.savvycom.studentmanagement.service.TutorialService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

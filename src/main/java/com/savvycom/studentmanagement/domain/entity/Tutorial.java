@@ -1,4 +1,4 @@
-package com.savvycom.studentmanagement.repository.domain;
+package com.savvycom.studentmanagement.domain.entity;
 
 import lombok.*;
 

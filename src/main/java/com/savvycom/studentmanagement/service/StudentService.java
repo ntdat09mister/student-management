@@ -1,6 +1,6 @@
 package com.savvycom.studentmanagement.service;
 
-import com.savvycom.studentmanagement.repository.dto.StudentDTO;
+import com.savvycom.studentmanagement.domain.dto.StudentDTO;
 
 import java.util.List;
 

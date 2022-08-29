@@ -1,6 +1,5 @@
 package com.savvycom.studentmanagement.controller;
 
-import com.savvycom.studentmanagement.repository.dto.MajorDTO;
 import com.savvycom.studentmanagement.service.MajorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,8 +13,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MajorController {
     private final MajorService majorService;
-    @GetMapping("/countStdPerMajor")
-    public List<MajorDTO> countStdPerMajor(){
-        return majorService.countStdPerMajor();
+    @GetMapping("getMajorSysField")
+    public Object getMajorSysField(){
+        return majorService.getMajorSysField();
     }
 }

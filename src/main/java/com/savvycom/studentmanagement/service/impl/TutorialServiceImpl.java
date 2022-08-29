@@ -1,6 +1,6 @@
 package com.savvycom.studentmanagement.service.impl;
 
-import com.savvycom.studentmanagement.repository.dto.TutorialDTO;
+import com.savvycom.studentmanagement.domain.dto.TutorialDTO;
 import com.savvycom.studentmanagement.repository.TutorialRepository;
 import com.savvycom.studentmanagement.service.TutorialService;
 import lombok.RequiredArgsConstructor;

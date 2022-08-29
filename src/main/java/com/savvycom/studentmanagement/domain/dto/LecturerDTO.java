@@ -1,4 +1,4 @@
-package com.savvycom.studentmanagement.repository.dto;
+package com.savvycom.studentmanagement.domain.dto;
 
 public interface LecturerDTO {
     Long getId();

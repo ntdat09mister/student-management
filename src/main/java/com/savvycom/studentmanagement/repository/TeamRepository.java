@@ -1,6 +1,6 @@
 package com.savvycom.studentmanagement.repository;
 
-import com.savvycom.studentmanagement.repository.domain.Team;
+import com.savvycom.studentmanagement.domain.entity.Team;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
